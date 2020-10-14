@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>服务器 on Bmixo&#39;s Blog</title>
+    <link>https://www.bmixo.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
+    <description>Recent content in 服务器 on Bmixo&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 09 May 2015 07:45:41 +0000</lastBuildDate><atom:link href="https://www.bmixo.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Centos Linux 下查看服务器信息的方法</title>
+      <link>https://www.bmixo.com/all-articles/centos-linux-%E4%B8%8B%E6%9F%A5%E7%9C%8B%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%BF%A1%E6%81%AF%E7%9A%84%E6%96%B9%E6%B3%95.html</link>
+      <pubDate>Sat, 09 May 2015 07:45:41 +0000</pubDate>
+      
+      <guid>https://www.bmixo.com/all-articles/centos-linux-%E4%B8%8B%E6%9F%A5%E7%9C%8B%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%BF%A1%E6%81%AF%E7%9A%84%E6%96%B9%E6%B3%95.html</guid>
+      <description>本教程使用于Centos,Debian等各Linux发行版
+**1 查看服务器CPU型号
+2 查看服务器内存容量
+3 查看服务器的CPU是32位还是64位
+4 查看当前Linux的版本
+5 查看Linux内核版本
+6 查看服务器当前时间
+7 查看服务器硬盘和分区
+8 查看目录大小
+9 查看服务器初始安装的软件包
+10 查看已经安装的软件包
+11 查看服务器键盘布局
+12 查看服务器网卡的ip，Mac地址
+13 查看服务器默认网关
+14 查看服务器的默认DNS
+15 查看服务器默认语言
+16 查看服务器所属时区和UTC时间
+17 查看服务器主机名
+**
+查看服务器CPU型号
+grep “model name” /proc/cpuinfo | cut -f2 -d:
+查看服务器内存容量
+grep MemTotal /proc/meminfo
+grep MemTotal /proc/meminfo | cut -f2 -d:
+free -m |grep “Mem” | awk ‘{print $2}’
+查看服务器的CPU是32位还是64位
+getconf LONG_BIT
+查看当前Linux的版本
+more /etc/redhat-release cat /etc/redhat-release</description>
+    </item>
+    
+  </channel>
+</rss>

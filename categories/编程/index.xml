@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>编程 on Bmixo&#39;s Blog</title>
+    <link>https://www.bmixo.com/categories/%E7%BC%96%E7%A8%8B/</link>
+    <description>Recent content in 编程 on Bmixo&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Apr 2020 02:11:19 +0000</lastBuildDate><atom:link href="https://www.bmixo.com/categories/%E7%BC%96%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux使用iptables和ipset屏蔽指定国家IP访问的方法</title>
+      <link>https://www.bmixo.com/all-articles/linux%E4%BD%BF%E7%94%A8iptables%E5%92%8Cipset%E5%B1%8F%E8%94%BD%E6%8C%87%E5%AE%9A%E5%9B%BD%E5%AE%B6ip%E8%AE%BF%E9%97%AE%E7%9A%84%E6%96%B9%E6%B3%95.html</link>
+      <pubDate>Thu, 16 Apr 2020 02:11:19 +0000</pubDate>
+      
+      <guid>https://www.bmixo.com/all-articles/linux%E4%BD%BF%E7%94%A8iptables%E5%92%8Cipset%E5%B1%8F%E8%94%BD%E6%8C%87%E5%AE%9A%E5%9B%BD%E5%AE%B6ip%E8%AE%BF%E9%97%AE%E7%9A%84%E6%96%B9%E6%B3%95.html</guid>
+      <description>本文为转载自互联网
+ipset是iptables的一个扩展，可以创建IP集，设置iptables规则更加灵活、高效和美观。基于这种特性，在linux中可以禁止某个国家的IP访问，也可以设置智能中国IP访问的白名单。
+第一步
+获取国家IP地址段，下载地址：http://www.ipdeny.com/ipblocks/ 。
+第二步
+安装ipset扩展
+第三步
+创建规则，例如中国IP的集合。
+第四步
+屏蔽中国IP访问（注意如果是从中国SSH到服务器，以下操作会导致服务器无法连接，谨慎操作！）
+解除屏蔽
+  </description>
+    </item>
+    
+    <item>
+      <title>winows下golang编译流程</title>
+      <link>https://www.bmixo.com/all-articles/golang%E7%BC%96%E8%AF%91%E6%B5%81%E7%A8%8B.html</link>
+      <pubDate>Wed, 04 Dec 2019 12:04:21 +0000</pubDate>
+      
+      <guid>https://www.bmixo.com/all-articles/golang%E7%BC%96%E8%AF%91%E6%B5%81%E7%A8%8B.html</guid>
+      <description>golang编译流程
+go run xxx
+go tool: no such tool “compile”
+go tool: no such tool “asm”
+go tool: no such tool “link”
+go tool compile hello.go
+go tool link hello.o
+或者
+C:\Go\pkg\tool\windows_amd64\compile.exe
+C:\Go\pkg\tool\windows_amd64\link.exe hello.o
+main.ctxt.loadlib()-&amp;gt;loadlib-&amp;gt;loadobjfile-&amp;gt;ldobj-&amp;gt;loadpe
+ctxt.Out写文件
+生成流程图
+go-callvis github.com/syncthing/syncthing/cmd/syncthing | dot -Tpng -o syncthing.png</description>
+    </item>
+    
+  </channel>
+</rss>

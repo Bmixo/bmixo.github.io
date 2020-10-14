@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>软件工具 on Bmixo&#39;s Blog</title>
+    <link>https://www.bmixo.com/categories/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/</link>
+    <description>Recent content in 软件工具 on Bmixo&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 04 Sep 2015 13:09:14 +0000</lastBuildDate><atom:link href="https://www.bmixo.com/categories/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>战地4本体&#43;6DLC注册表 9月4日更新</title>
+      <link>https://www.bmixo.com/all-articles/bf4%E6%9C%AC%E4%BD%936dlc%E6%B3%A8%E5%86%8C%E8%A1%A8.html</link>
+      <pubDate>Fri, 04 Sep 2015 13:09:14 +0000</pubDate>
+      
+      <guid>https://www.bmixo.com/all-articles/bf4%E6%9C%AC%E4%BD%936dlc%E6%B3%A8%E5%86%8C%E8%A1%A8.html</guid>
+      <description>本体
+将下面代码保持为reg格式
+Windows Registry Editor Version 5.00
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\EA Games\Battlefield 4]
+“GDFBinary”=”F:\GAME\Battlefield 4\GDFBinary_zh_TW.dll”
+“GDFBinary64″=”F:\GAME\Battlefield 4\GDFBinary_zh_TW_64.dll”
+“DisplayName”=”Battlefield 4™”
+“Locale”=”zh_TW”
+“Install Dir”=”F:\GAME\Battlefield 4\”
+ DLC注册表
+中国崛起
+二次突袭
+海军突袭
+龙之獠牙
+最后一战
+夜猎行动
+将下面代码保持为reg格式
+Windows Registry Editor Version 5.00
+[HKEY_LOCAL_MACHINE\SOFTWARE\EA Games\Battlefield 4\Xpack0]
+“Installed”=”True”
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\EA Games\Battlefield 4\Xpack0]
+“Installed”=”True”
+[HKEY_LOCAL_MACHINE\SOFTWARE\EA Games\Battlefield 4\Xpack1]
+“Installed”=”True”
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\EA Games\Battlefield 4\Xpack1]
+“Installed”=”True”
+[HKEY_LOCAL_MACHINE\SOFTWARE\EA Games\Battlefield 4\Xpack2]
+“Installed”=”True”
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\EA Games\Battlefield 4\Xpack2]
+“Installed”=”True”
+[HKEY_LOCAL_MACHINE\SOFTWARE\EA Games\Battlefield 4\Xpack3]
+“Installed”=”True”
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\EA Games\Battlefield 4\Xpack3]
+“Installed”=”True”
+[HKEY_LOCAL_MACHINE\SOFTWARE\EA Games\Battlefield 4\Xpack4]
+“Installed”=”True”</description>
+    </item>
+    
+    <item>
+      <title>Net-Speeder–OpenVZ主机TCP端口加速器</title>
+      <link>https://www.bmixo.com/all-articles/net-speeder-openvz%E4%B8%BB%E6%9C%BAtcp%E7%AB%AF%E5%8F%A3%E5%8A%A0%E9%80%9F%E5%99%A8.html</link>
+      <pubDate>Sat, 23 May 2015 12:49:34 +0000</pubDate>
+      
+      <guid>https://www.bmixo.com/all-articles/net-speeder-openvz%E4%B8%BB%E6%9C%BAtcp%E7%AB%AF%E5%8F%A3%E5%8A%A0%E9%80%9F%E5%99%A8.html</guid>
+      <description>Net-Speeder是一个类似于锐速的一个服务器TCP加速器，由于锐速不支持OpenVZ的加速，所以只能用Net-Speeder。
+1、net-speeder项目主页：https://code.google.com/p/net-speeder/
+2、net-speeder是一个由snooda.com博主写的Linux脚本程序，主要目的是为了解决丢包问题，实现TCP双倍发送，即同一份数据包发送两份。这样的话在服务器带宽充足情况下，丢包率会平方级降低。
+3、net-speeder对于不加速就可以跑满带宽的类型来讲（多线程下载），开启后反而由于多出来的无效流量，导致速度减半，性能开销稍大和自由度有损失。所以，如果你的VPS连接国内速度一切正常，请不要启用net-speeder。
+4、安装net-speeder的方法也很简单。
+执行以下命令：
+5、设置端口加速和开机启动
+6、关闭加速
+  </description>
+    </item>
+    
+    <item>
+      <title>“DDoS之王”Lizard Squad的攻击武器 – Lizard Stresser</title>
+      <link>https://www.bmixo.com/all-articles/ddos%E4%B9%8B%E7%8E%8B.html</link>
+      <pubDate>Thu, 26 Feb 2015 09:45:55 +0000</pubDate>
+      
+      <guid>https://www.bmixo.com/all-articles/ddos%E4%B9%8B%E7%8E%8B.html</guid>
+      <description>Lizard Stresser DDoS攻击服务价格
+官网地址：https://lizardstresser.su/
+
+圣诞节当天，臭名昭著的黑客组织Lizard Squad发起大量DDoS攻击使得微软的Xbox在线平台和索尼PSN瘫痪。当天这两大网站均出现脱机界面，有人调侃称这是Lizard Squad给游戏玩家们的圣诞礼物。
+ 
+ 黑客工具商业化
+黑客组织Lizard Squad以发动大规模的DDoS攻击而成名，号称“DDoS之王”。他们曾经攻陷过世界上多个大型游戏网络，比如Xbox Live、索尼Playstation Network、Jagex、暴雪、英雄联盟等等。
+Lizard所使用的攻击软件名为Lizard Stresser。Lizard Stresser，是一款强大的DDoS工具，它主要利用被感染的家用路由器的网络带宽流量发起对目标的攻击。目前Lizard Squad团队正打算把它开发为商业版本，作为攻击武器出售。
+
+   </description>
+    </item>
+    
+    <item>
+      <title>战地4找最终反弹狗牌软件及狗牌地图</title>
+      <link>https://www.bmixo.com/all-articles/software-tools/%E6%88%98%E5%9C%B04%E6%89%BE%E6%9C%80%E7%BB%88%E5%8F%8D%E5%BC%B9%E7%8B%97%E7%89%8C%E8%BD%AF%E4%BB%B6%E5%8F%8A%E7%8B%97%E7%89%8C%E5%9C%B0%E5%9B%BE.html</link>
+      <pubDate>Mon, 23 Feb 2015 06:41:00 +0000</pubDate>
+      
+      <guid>https://www.bmixo.com/all-articles/software-tools/%E6%88%98%E5%9C%B04%E6%89%BE%E6%9C%80%E7%BB%88%E5%8F%8D%E5%BC%B9%E7%8B%97%E7%89%8C%E8%BD%AF%E4%BB%B6%E5%8F%8A%E7%8B%97%E7%89%8C%E5%9C%B0%E5%9B%BE.html</guid>
+      <description>要求：
+系统要是X64位的，要装VC2010运行库（不如它会自己下载，但是下载地址在墙外），电脑要开Aero效果，进游戏开窗口模式，再开软件。亲测没被封。时间是这篇文章的日期吧，过太久就不要用了。
+使用方法：
+
+ 软件下载地址：http://pan.baidu.com/s/1pJ3Gs7x 密码: 3lht
+ 另附狗牌分布地图给那些不想用软件的好孩子。
+狗牌分布地图：http://pan.baidu.com/s/1bnq7Avd 密码: gh9y</description>
+    </item>
+    
+    <item>
+      <title>翻墙免费代理</title>
+      <link>https://www.bmixo.com/all-articles/software-tools/%E7%BF%BB%E5%A2%99%E5%85%8D%E8%B4%B9%E4%BB%A3%E7%90%86.html</link>
+      <pubDate>Sat, 22 Nov 2014 10:09:24 +0000</pubDate>
+      
+      <guid>https://www.bmixo.com/all-articles/software-tools/%E7%BF%BB%E5%A2%99%E5%85%8D%E8%B4%B9%E4%BB%A3%E7%90%86.html</guid>
+      <description>免费翻墙代理上Youtube和google
+Youtube被屏蔽是很早以前的事了，可最近由于谷歌事件后连上谷歌也要带套了，叫我们怎么活呢！（谷歌可以改hosts文件上，可是Youtube嘛！！…….）
+还好谷歌留了个造福人类的东西goagent！！可惜有流量限制！！
+ goagent是google开发的一个免费代理工具，只要google没倒闭goagent就不会失效，而且goagen速度流畅，看youtube的网站毫无压力，每日提供1G流量但是也可以通过创建多个帐号的方法达到无限，所以goaget是一款很好的翻蔷软件。
+ 所以发个配置好的了带多个账号的goagent代理吧！！所以妈妈再也不用担心我们流量流量超标了！！
+如果有钱的话建议不要来蹭这个东西了，建议买个VPN什么的，毕竟用的多人多了，服务质量就差了嘛！还有谷歌偷窥用户隐私又不是第一次了，谁知道有会发生什么呢！
+教程如下
+
+打开chome–设置–扩展程序–把proxy.crx这个文件用鼠标拖进去
+
+在插件图标上点鼠标右键，然后点选项—导入/导出—从文件恢复—然后导入Switchy.zip压缩文件里的SwitchyOptions.bak备份文件
+
+然后在再选择自动切换模式就大功告成了！！
+
+享受墙外的世界吧！
+最后放上几张测试图片！
+Youtube
+
+ google
+
+ 下载链接：http://pan.baidu.com/s/1bn3wsWJ 密码：0dvc
+ 持续更新！！</description>
+    </item>
+    
+    <item>
+      <title>wordpress常用插件集合</title>
+      <link>https://www.bmixo.com/all-articles/software-tools/wordpress%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6%E9%9B%86%E5%90%88.html</link>
+      <pubDate>Mon, 06 Oct 2014 04:39:17 +0000</pubDate>
+      
+      <guid>https://www.bmixo.com/all-articles/software-tools/wordpress%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6%E9%9B%86%E5%90%88.html</guid>
+      <description> </description>
+    </item>
+    
+  </channel>
+</rss>

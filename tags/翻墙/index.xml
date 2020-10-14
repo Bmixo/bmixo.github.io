@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>翻墙 on Bmixo&#39;s Blog</title>
+    <link>https://www.bmixo.com/tags/%E7%BF%BB%E5%A2%99/</link>
+    <description>Recent content in 翻墙 on Bmixo&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 22 Nov 2014 10:09:24 +0000</lastBuildDate><atom:link href="https://www.bmixo.com/tags/%E7%BF%BB%E5%A2%99/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>翻墙免费代理</title>
+      <link>https://www.bmixo.com/all-articles/software-tools/%E7%BF%BB%E5%A2%99%E5%85%8D%E8%B4%B9%E4%BB%A3%E7%90%86.html</link>
+      <pubDate>Sat, 22 Nov 2014 10:09:24 +0000</pubDate>
+      
+      <guid>https://www.bmixo.com/all-articles/software-tools/%E7%BF%BB%E5%A2%99%E5%85%8D%E8%B4%B9%E4%BB%A3%E7%90%86.html</guid>
+      <description>免费翻墙代理上Youtube和google
+Youtube被屏蔽是很早以前的事了，可最近由于谷歌事件后连上谷歌也要带套了，叫我们怎么活呢！（谷歌可以改hosts文件上，可是Youtube嘛！！…….）
+还好谷歌留了个造福人类的东西goagent！！可惜有流量限制！！
+ goagent是google开发的一个免费代理工具，只要google没倒闭goagent就不会失效，而且goagen速度流畅，看youtube的网站毫无压力，每日提供1G流量但是也可以通过创建多个帐号的方法达到无限，所以goaget是一款很好的翻蔷软件。
+ 所以发个配置好的了带多个账号的goagent代理吧！！所以妈妈再也不用担心我们流量流量超标了！！
+如果有钱的话建议不要来蹭这个东西了，建议买个VPN什么的，毕竟用的多人多了，服务质量就差了嘛！还有谷歌偷窥用户隐私又不是第一次了，谁知道有会发生什么呢！
+教程如下
+
+打开chome–设置–扩展程序–把proxy.crx这个文件用鼠标拖进去
+
+在插件图标上点鼠标右键，然后点选项—导入/导出—从文件恢复—然后导入Switchy.zip压缩文件里的SwitchyOptions.bak备份文件
+
+然后在再选择自动切换模式就大功告成了！！
+
+享受墙外的世界吧！
+最后放上几张测试图片！
+Youtube
+
+ google
+
+ 下载链接：http://pan.baidu.com/s/1bn3wsWJ 密码：0dvc
+ 持续更新！！</description>
+    </item>
+    
+  </channel>
+</rss>

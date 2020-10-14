@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VPS加速 on Bmixo&#39;s Blog</title>
+    <link>https://www.bmixo.com/tags/vps%E5%8A%A0%E9%80%9F/</link>
+    <description>Recent content in VPS加速 on Bmixo&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 23 May 2015 12:49:34 +0000</lastBuildDate><atom:link href="https://www.bmixo.com/tags/vps%E5%8A%A0%E9%80%9F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Net-Speeder–OpenVZ主机TCP端口加速器</title>
+      <link>https://www.bmixo.com/all-articles/net-speeder-openvz%E4%B8%BB%E6%9C%BAtcp%E7%AB%AF%E5%8F%A3%E5%8A%A0%E9%80%9F%E5%99%A8.html</link>
+      <pubDate>Sat, 23 May 2015 12:49:34 +0000</pubDate>
+      
+      <guid>https://www.bmixo.com/all-articles/net-speeder-openvz%E4%B8%BB%E6%9C%BAtcp%E7%AB%AF%E5%8F%A3%E5%8A%A0%E9%80%9F%E5%99%A8.html</guid>
+      <description>Net-Speeder是一个类似于锐速的一个服务器TCP加速器，由于锐速不支持OpenVZ的加速，所以只能用Net-Speeder。
+1、net-speeder项目主页：https://code.google.com/p/net-speeder/
+2、net-speeder是一个由snooda.com博主写的Linux脚本程序，主要目的是为了解决丢包问题，实现TCP双倍发送，即同一份数据包发送两份。这样的话在服务器带宽充足情况下，丢包率会平方级降低。
+3、net-speeder对于不加速就可以跑满带宽的类型来讲（多线程下载），开启后反而由于多出来的无效流量，导致速度减半，性能开销稍大和自由度有损失。所以，如果你的VPS连接国内速度一切正常，请不要启用net-speeder。
+4、安装net-speeder的方法也很简单。
+执行以下命令：
+5、设置端口加速和开机启动
+6、关闭加速
+  </description>
+    </item>
+    
+  </channel>
+</rss>

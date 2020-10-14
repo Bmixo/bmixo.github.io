@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ShadowSocks on Bmixo&#39;s Blog</title>
+    <link>https://www.bmixo.com/tags/shadowsocks/</link>
+    <description>Recent content in ShadowSocks on Bmixo&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Jul 2015 13:40:22 +0000</lastBuildDate><atom:link href="https://www.bmixo.com/tags/shadowsocks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kali使用ShadowSocks及配置Chromium浏览器</title>
+      <link>https://www.bmixo.com/p525/</link>
+      <pubDate>Fri, 24 Jul 2015 13:40:22 +0000</pubDate>
+      
+      <guid>https://www.bmixo.com/p525/</guid>
+      <description>首先你得要有个ShadowSocks地址、账号以及密码。
+然后安装ShadowSocks客户端
+apt-get install python-pip &amp;amp; pip install shadowsocks
+新建一个ss.conf文件，把下面内容保存进去。
+然后新建个文件，把下面内容写进去，保存。
+加权限，执行。
+如图：
+
+接着安装Chromium
+直接apt-get install 安装就行了，不用下载deb包。
+安装好后在应用程序里点右键，点编辑菜单，找到Chromium然后点属性。
+如图：
+
+在/usr/bin/chromium %U后面接上–user-data-dir –proxy-server=”socks5://127.0.0.1:8888″参数
+打开浏览器已经可以翻墙了，但是只有不方便，所以到应用商店里装个SwitchyOmega插件方便选择
+装完后打开插件设置把刚才的ShadowSocks信息填好就行。
+如图：
+
+最后，别忘记了把编辑菜单里的–proxy-server=”socks5://127.0.0.1:8888″参数给删了。
+ </description>
+    </item>
+    
+  </channel>
+</rss>

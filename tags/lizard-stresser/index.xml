@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lizard Stresser on Bmixo&#39;s Blog</title>
+    <link>https://www.bmixo.com/tags/lizard-stresser/</link>
+    <description>Recent content in Lizard Stresser on Bmixo&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Feb 2015 09:45:55 +0000</lastBuildDate><atom:link href="https://www.bmixo.com/tags/lizard-stresser/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>“DDoS之王”Lizard Squad的攻击武器 – Lizard Stresser</title>
+      <link>https://www.bmixo.com/all-articles/ddos%E4%B9%8B%E7%8E%8B.html</link>
+      <pubDate>Thu, 26 Feb 2015 09:45:55 +0000</pubDate>
+      
+      <guid>https://www.bmixo.com/all-articles/ddos%E4%B9%8B%E7%8E%8B.html</guid>
+      <description>Lizard Stresser DDoS攻击服务价格
+官网地址：https://lizardstresser.su/
+
+圣诞节当天，臭名昭著的黑客组织Lizard Squad发起大量DDoS攻击使得微软的Xbox在线平台和索尼PSN瘫痪。当天这两大网站均出现脱机界面，有人调侃称这是Lizard Squad给游戏玩家们的圣诞礼物。
+ 
+ 黑客工具商业化
+黑客组织Lizard Squad以发动大规模的DDoS攻击而成名，号称“DDoS之王”。他们曾经攻陷过世界上多个大型游戏网络，比如Xbox Live、索尼Playstation Network、Jagex、暴雪、英雄联盟等等。
+Lizard所使用的攻击软件名为Lizard Stresser。Lizard Stresser，是一款强大的DDoS工具，它主要利用被感染的家用路由器的网络带宽流量发起对目标的攻击。目前Lizard Squad团队正打算把它开发为商业版本，作为攻击武器出售。
+
+   </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DDoS on Bmixo&#39;s Blog</title>
+    <link>https://www.bmixo.com/tags/ddos/</link>
+    <description>Recent content in DDoS on Bmixo&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 09 May 2015 07:39:16 +0000</lastBuildDate><atom:link href="https://www.bmixo.com/tags/ddos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>slowhttptest —– Linux下的DDOS工具</title>
+      <link>https://www.bmixo.com/all-articles/slowhttptest-linux%E4%B8%8B%E7%9A%84ddos%E5%B7%A5%E5%85%B7.html</link>
+      <pubDate>Sat, 09 May 2015 07:39:16 +0000</pubDate>
+      
+      <guid>https://www.bmixo.com/all-articles/slowhttptest-linux%E4%B8%8B%E7%9A%84ddos%E5%B7%A5%E5%85%B7.html</guid>
+      <description>slowhttptest是一款对服务器进行慢攻击的测试软件，所谓的慢攻击就是相对于cc或者ddos的快而言的，并不是只有量大速度快才能把服务器搞挂，使用慢攻击有时候也能到达同一效果。slowhttptest包含了之前几种慢攻击的攻击方式，包括slowloris, Slow HTTP POST, Slow Read attack等。那么这些慢攻击工具的原理就是想办法让服务器等待，当服务器在保持连接等待时，自然就消耗了资源。
+ 安装方法：
+要先安装gcc和openssl
+安装gcc
+安装 libssl-dev
+参数：
+—a —开始开始值范围说明符用于范围头测试
+-b 将字节限制的范围说明符用于范围头测试
+– c 的连接数限制为65539
+– d proxy host:port 用于指导所有流量通过web代理
+– e proxy host:port 端口用于指导只有探针交通通过web代理
+– h,B,R或x 指定减缓在头部分或在消息体,- R 允许范围检验,使慢读测试- x
+– g 生成统计数据在CSV和HTML格式,模式是缓慢的xxx。csv / html,其中xxx是时间和日期
+– i seconds 秒间隔跟踪数据在几秒钟内,每个连接
+– k 管道因子次数重复请求在同一连接慢读测试如果服务器支持HTTP管道内衬。
+– l 在几秒钟内，秒测试时间
+– n 秒间隔从接收缓冲区读取操作
+– o 文件定义输出文件路径和/或名称,如果指定有效- g
+– p 秒超时等待HTTP响应在探头连接后,服务器被认为是不可访问的
+– r seconds 连接速度
+– s 字节值的内容长度标题详细说明,如果指定- b</description>
+    </item>
+    
+    <item>
+      <title>“DDoS之王”Lizard Squad的攻击武器 – Lizard Stresser</title>
+      <link>https://www.bmixo.com/all-articles/ddos%E4%B9%8B%E7%8E%8B.html</link>
+      <pubDate>Thu, 26 Feb 2015 09:45:55 +0000</pubDate>
+      
+      <guid>https://www.bmixo.com/all-articles/ddos%E4%B9%8B%E7%8E%8B.html</guid>
+      <description>Lizard Stresser DDoS攻击服务价格
+官网地址：https://lizardstresser.su/
+
+圣诞节当天，臭名昭著的黑客组织Lizard Squad发起大量DDoS攻击使得微软的Xbox在线平台和索尼PSN瘫痪。当天这两大网站均出现脱机界面，有人调侃称这是Lizard Squad给游戏玩家们的圣诞礼物。
+ 
+ 黑客工具商业化
+黑客组织Lizard Squad以发动大规模的DDoS攻击而成名，号称“DDoS之王”。他们曾经攻陷过世界上多个大型游戏网络，比如Xbox Live、索尼Playstation Network、Jagex、暴雪、英雄联盟等等。
+Lizard所使用的攻击软件名为Lizard Stresser。Lizard Stresser，是一款强大的DDoS工具，它主要利用被感染的家用路由器的网络带宽流量发起对目标的攻击。目前Lizard Squad团队正打算把它开发为商业版本，作为攻击武器出售。
+
+   </description>
+    </item>
+    
+    <item>
+      <title>CloudFlare：香港PopVote史无前例DDoS攻击事件全解析</title>
+      <link>https://www.bmixo.com/all-articles/cloudflare%E9%A6%99%E6%B8%AFpopvote%E5%8F%B2%E6%97%A0%E5%89%8D%E4%BE%8Bddos%E6%94%BB%E5%87%BB%E4%BA%8B%E4%BB%B6%E5%85%A8%E8%A7%A3%E6%9E%90.html</link>
+      <pubDate>Mon, 25 Aug 2014 04:13:26 +0000</pubDate>
+      
+      <guid>https://www.bmixo.com/all-articles/cloudflare%E9%A6%99%E6%B8%AFpopvote%E5%8F%B2%E6%97%A0%E5%89%8D%E4%BE%8Bddos%E6%94%BB%E5%87%BB%E4%BA%8B%E4%BB%B6%E5%85%A8%E8%A7%A3%E6%9E%90.html</guid>
+      <description>
+CloudFlare最后则是采用了全球任播网路（Global Anycast Network）的技术，与全球各地的网路供应商，共同合作防堵来自四面八方的DDoS攻击，而在防御DNS Flood洪水攻击上，CloudFlare也与GoogleDNS、OpenDNS及香港ISP业者合作加入更困难的编码DNS反应机制，同时保护.hk的国码网域名称（ccTLD）不受到攻击瘫痪，另外也在资料中心内採取任播（Anycast）架构，以此分散减缓DNS Flood攻击的影响。
+ </description>
+    </item>
+    
+  </channel>
+</rss>
